@@ -21,5 +21,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/'});
 }]).
 run(function(user) {
-  user.init({ appId: '543d26f80ced1' });
+  user.init({ appId: '5448491036fca' });
 });
